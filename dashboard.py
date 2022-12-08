@@ -237,7 +237,7 @@ def main():
             seuil=55
             ID=str(id_client)
             #response = json.loads(requests.get("https://dashboard.heroku.com/apps/mabdellahi-api-p7/predict/{}".format(ID)).content)
-            response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content)
+            response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content, encoding='utf-8-sig', errors='ignore')
 
 
             print(response)
