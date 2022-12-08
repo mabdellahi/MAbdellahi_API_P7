@@ -22,26 +22,18 @@ from sklearn.neighbors import NearestNeighbors
 # API definition
 app = Flask(__name__)
 
-# PATH = '/Users/asus2/PROJET7/'
 # Charger les données
-#df = pd.read_csv('df_test.csv')
 df = pd.read_csv("df_test_output.csv")
 print('df columns :', df.columns)
 
 
 # Charger le modèle
-
 model = pickle.load(open("RandomForestClassifier.pkl", "rb"))
-
-#@app.route("/get_prediction/<id_client>", methods=['GET'])
 
 @app.route("/predict/<id_client>")
 def predict(id_client):
-    #sample_size = 1000
-    # data = pd.read_csv("df_test_output.csv", nrows=sample_size)
-    data = pd.read_csv("df_test_output.csv")
-    #print('data columns :', data.columns)
 
+    data = pd.read_csv("df_test_output.csv")
     print('id_client', id_client)
     ID = int(id_client)
 
