@@ -56,7 +56,7 @@ def predict(id_client):
     print('X columns :', X.columns)
     prediction = model.predict(X)  # y_pred
     proba = model.predict_proba(X)  # y_proba
-    dict_result = {"prediction": "int(prediction)", "proba": "float(proba[0][0])"}
+    dict_result = {"prediction": int(prediction), "proba": float(proba[0][0])}
     print('Résultat de Prédiction : \n', dict_result)
     return jsonify(dict_result)
 # Lancer l'application
