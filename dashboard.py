@@ -235,8 +235,8 @@ def main():
 
         with st.spinner('Chargement du score du client...'):
             ID=str(id_client)
-            response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content)
-            #response = json.loads(requests.get("http://127.0.0.1:5000/predict/{}".format(ID)).content)
+           # response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content)
+            response = json.loads(requests.get("http://127.0.0.1:5000/predict/{}".format(ID)).content)
 
             print(response)
             API_data=response
