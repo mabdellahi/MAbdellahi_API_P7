@@ -232,13 +232,11 @@ def main():
         st.header('Scoring et décision du modèle')
 
     #------------------------------------ Appel de l'API--------------------------------- :
-    #API_url = "http://127.0.0.1:5000/credit/" + str(id_client)
-        with st.spinner('Chargement du score du client...'):
-            seuil=55
-            ID=str(id_client)
-            #response = json.loads(requests.get("https://dashboard.heroku.com/apps/mabdellahi-api-p7/predict/{}".format(ID)).content)
-            response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content, encoding='utf-8-sig', errors='ignore')
 
+        with st.spinner('Chargement du score du client...'):
+            ID=str(id_client)
+            response = json.loads(requests.get("https://mabdellahi-api-p7.herokuapp.com/predict/{}".format(ID)).content)
+            #response = json.loads(requests.get("http://127.0.0.1:5000/predict/{}".format(ID)).content)
 
             print(response)
             API_data=response
