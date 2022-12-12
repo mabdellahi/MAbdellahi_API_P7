@@ -70,7 +70,6 @@ seaborn==0.12.1
 semver==2.13.0
 shap==0.41.0
 six==1.16.0
-sklearn==0.0.post1
 slicer==0.0.7
 smmap==5.0.0
 stack-data==0.6.1
