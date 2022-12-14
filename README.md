@@ -1,7 +1,20 @@
 # Projet7-(Openclassrooms/CentraleSupelec)
-Parcours Data Scientist
+## Parcours Data Scientist
 
-Projet no.7: "Imlpémentez un modèle de scoring"
+## Projet no.7: "Imlpémentez un modèle de scoring"
 
-## Description du projet:
-Une société financière, nommée "Prêt à dépenser", qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt. Elle souhaite développer un modèle de scoring de la probabilité de défaut de paiement du client pour étayer la décision d'accorder ou non un prêt à un client potentiel en s’appuyant sur des sources de données variées.
+## Description du projet
+Une société financière, nommée "Prêt à dépenser", qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt. Elle souhaite développer un modèle de scoring pour calculer la probabilité de défaut de paiement d'un client afin de prendre la décision d'accorder ou non un prêt à un client potentiel en s’appuyant sur des sources de données variées.
+
+Source des données : https://www.kaggle.com/c/home-credit-default-risk/data
+
+## Mission 
+1. Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d'un client de façon automatique.
+2. Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d'interpréter les prédictions faites par le modèle, et d’améliorer la connaissance client des chargés de relation client.
+
+## Compétences évaluées
+1. Utiliser un logiciel de version de code pour assurer l’intégration du modèle
+2. Déployer un modèle via une API dans le Web
+3. Réaliser un dashboard pour présenter son travail de modélisation
+4. Rédiger une note méthodologique afin de communiquer sa démarche de modélisation
+5. Présenter son travail de modélisation à l'oral
