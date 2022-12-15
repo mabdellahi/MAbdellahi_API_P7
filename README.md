@@ -25,7 +25,6 @@ Source des données : https://www.kaggle.com/c/home-credit-default-risk/data
  https://mabdellahi-mabdellahi-api-p7-dashboard-e2oull.streamlit.app/
 * Un dossier sur un outil de versioning de code contenant :
   * Le code de la modélisation (du prétraitement à la prédiction) 
-https://github.com/mabdellahi/MoustaphaABDELLAHI-P7#:~:text=Commit%20time-,Notebook%2DP7.ipynb,-Add%20files%20via
 * Le code générant le dashboard
   * Le code permettant de déployer le modèle sous forme d'API
 * Une note méthodologique décrivant :
