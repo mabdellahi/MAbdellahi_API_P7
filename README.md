@@ -22,6 +22,7 @@ Source des données : https://www.kaggle.com/c/home-credit-default-risk/data
 ## Livrables
 
 * Le dashboard interactif répondant aux spécifications ci-dessus et l’API de prédiction du score, déployées chacunes sur le cloud.
+ https://mabdellahi-mabdellahi-api-p7-dashboard-e2oull.streamlit.app/
 * Un dossier sur un outil de versioning de code contenant :
   * Le code de la modélisation (du prétraitement à la prédiction)
   * Le code générant le dashboard
