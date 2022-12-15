@@ -25,7 +25,6 @@ Source des données : https://www.kaggle.com/c/home-credit-default-risk/data
 
  https://mabdellahi-mabdellahi-api-p7-dashboard-e2oull.streamlit.app/
  
- https://mabdellahi-api-p7.herokuapp.com/
 * Un dossier sur un outil de versioning de code contenant :
   * Le code de la modélisation (du prétraitement à la prédiction) 
 * Le code générant le dashboard
